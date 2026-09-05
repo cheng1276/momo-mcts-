@@ -1,15 +1,9 @@
-🦉 蒙蒙 MCTS 系列 — 成品版（不需要 .github、不需要 Node）
+🦉 蒙蒙 MCTS 系列 — 成品版（精選 9 個 app）
 
-1. 到 GitHub 建一個「公開」倉庫，例如 momo-mcts
-2. Add file → Upload files → 把這個資料夾裡的東西全部拖進去：
-   index.html、README.txt、assets 資料夾（裡面是 index-xxxx.js）
-   → Commit changes
-3. 倉庫 Settings → Pages → Build and deployment：
-   Source 選「Deploy from a branch」，Branch 選 main、資料夾選 /(root) → Save
-4. 等 1～2 分鐘，網址：https://你的帳號.github.io/momo-mcts/
-   直接開某個 app：在網址後加 ?app=momo-talk-v2-mcts
+上傳／更新：把 index.html 與 assets 資料夾上傳到倉庫根目錄（覆蓋舊的；舊的 assets/index-xxxx.js 可刪）。
+Pages 設定：Settings → Pages → Deploy from a branch → main → /(root)
+網址：https://你的帳號.github.io/倉庫名/   直接開某個 app：?app=momo-talk-v2-mcts
 
-補充：
-・「跟蒙蒙聊天」在自己的網站上需要中繼站（見原始碼包的 worker 資料夾與 README）。
-  設定好後，用 GitHub 網頁編輯 index.html，把 window.MOMO_CHAT_PROXY = "" 填入 Worker 網址即可。
-・要修改 app 內容才需要原始碼包（momo-mcts-site.zip）。
+目錄：蒙蒙英語會話教室 2.0、ABC 蒙蒙學校 3.0、五子棋・MCTS 棋院、黑白棋・MCTS 棋院、
+      戰艦棋・蒙地卡羅艦隊、卡卡頌兒童版、卡坦島兒童版、龍蛋島、關卡鍛造坊・MCTS
+「跟蒙蒙聊天」沒有中繼站時是離線版 3.0；要接 Claude 請見原始碼包 README 第五節。
